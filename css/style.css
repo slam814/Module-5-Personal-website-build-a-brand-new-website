@@ -86,7 +86,10 @@ h2{
     font-weight: 900;
     box-shadow: 5px 5px 10px brown;
 }
-p{
+p, small {
+    color: #707070;
+}
+input{
     color: #707070;
 }
 .input-amount{
@@ -104,9 +107,76 @@ p{
     background-color: #FFEEEE;
     font-size: 30px;
 }
+.donate-plan-card{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .food-shelter-for-family{
     background-color: #EDF5F6;
+    margin-left: 20px;
 }
 .education-for-child{
     background-color: #FFF4D6;
+    margin-left: 20px;
+}
+.card{
+    width: 600px;
+    max-width: ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.donation1-img{
+border: 15px solid white;
+    border-radius: 30px;
+    padding-right: 8%;
+}
+.donation1-text{
+    padding-top: 3px;
+    padding-left: 8%;
+    padding-right: 3%;
+   
+
+}
+.donation2-img{
+border: 15px solid white;
+    border-radius: 30px;
+    padding-left: 8%;
+}
+.donation2-text{
+    padding-top: 3px;
+    padding-right: 8%;
+    padding-left: 3%;
+}
+.submit-aria{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #FFF4D6;
+}
+input{
+    padding: 10px 40px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.submit-button{
+    background-image: linear-gradient(orange, tomato);
+    border: 0;
+   color: white;
+   font-weight: 700;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0%;
+}
+footer h3{
+    font-family: 'Oswald', sans-serif;
+  color: olivedrab;
+
 }
